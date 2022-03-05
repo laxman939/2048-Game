@@ -1,0 +1,110 @@
+body{
+    background-color: rgb(245, 242, 202);
+}
+p{
+    color: antiquewhite;
+    font-size: 20px;
+}
+
+h1{
+    text-align: center;
+    font-weight: 900;
+    font-family: sans-serif;
+}
+h2{
+    width: 300px;
+    color: rgb(219, 111, 10);  
+    font-family: Georgia, serif, vardana;
+}
+#instructions{
+    width: 300px;
+    color: rgb(23, 24, 20);
+    font-family: serif;
+}
+.score-restart{
+   color: goldenrod;
+}
+#btn{
+    color: black;
+    background-color: #b66f38;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: 800;
+    padding: 5px;
+    box-shadow: 2px 2px 1px gray;
+    margin-left: 15px;
+    opacity: 0.7;
+}
+
+
+#score{
+    text-align: center;
+    color: rgb(114, 6, 6);
+    font-weight: bold;
+    font-size: x-large;
+
+}
+
+.clear{
+    clear: both;
+}
+
+.size{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#size-bloc{
+   display: flex;
+   justify-content: center;
+   text-align: center;
+}
+
+#size-title{
+    color: rgb(52, 58, 39);
+    font-size: 22px;
+    font-weight: bolder;
+}
+
+#size{
+    width: 100px;
+    height: 28px;
+    border: 3px solid #85522a;
+    border-radius: 15px;
+    background-color: rgb(221, 233, 167); 
+    font-weight: bold;
+    font-size: large;
+    padding: 0px 2px;
+    margin: 1px 8px;
+}
+
+#canvas{
+    background-color: burlywood;
+    margin-right: 20px;
+}
+
+#canvas-block{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+#change-size{
+    color: rgb(177, 25, 25);
+    background-color: #a8be7e;
+    height: 38px;
+    border: none;
+    border-radius: 10px;
+    font-size: 14px;
+    font-weight: 800;
+    padding: 2px 8px;
+    box-shadow: 2px 2px 1px gray;
+    margin-left: 10px;
+    opacity: 0.7;
+}
+:hover#btn, :hover#change-size{
+    opacity: 1;
+}
