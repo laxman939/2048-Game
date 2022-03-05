@@ -80,7 +80,7 @@ function drawCell(cell) {
       ctx.fillStyle = "#6495ED";
       break;
     case 64:
-      ctx.fillStyle = "#DFFF00";
+      ctx.fillStyle = "#828760";
       break;
     case 128:
       ctx.fillStyle = "#FF7F50";
